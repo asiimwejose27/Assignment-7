@@ -1,3 +1,71 @@
-.container {
-    background-image: url(./img/movie.jpeg);
+.container{
+    background-image: url(/img/movie.jpeg);
+    background-size: contain;
+    background-repeat: repeat;
+    height: 800px;
+    position: relative;
+}
+
+.container-login{
+
+    text-align: justify;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+    width: 30%;
+    height: 85%;
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+#container-sign{
+    color: white;
+}
+
+.container-form{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.container-form img{
+    height: 5%;
+    width: 5%;
+}
+
+.help{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+
+.facebook{
+    padding-top: 2%;
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8pz 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.psw{
+    float: right;
 }
